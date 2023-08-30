@@ -4,6 +4,6 @@ height = int(input("What is your height in meters?\n"))
 
 weight = int(input("What is your weight in kilograms?\n"))
 
-bmi = str(weight / height * 2)
+bmi = str(round(weight / height * 2,2))
 
 print ("Thanks! Your BMI is " + bmi + ".")
